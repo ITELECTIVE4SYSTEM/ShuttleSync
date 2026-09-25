@@ -1,0 +1,33 @@
+# Environment file - NEVER commit this!
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor/
+composer.lock
+
+# Local Python environment and archives
+/ai/venv/
+__pycache__/
+*.py[cod]
+*.tar.gz
+
+# Runtime uploads
+/uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# phpMyAdmin
+phpmyadmin/
